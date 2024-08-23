@@ -1,7 +1,7 @@
 uarand
 ----------------
 
-[![Build Status](https://travis-ci.org/corpix/uarand.svg?branch=master)](https://travis-ci.org/corpix/uarand)
+[![Build Status](https://travis-ci.org/witovttip/uarand.svg?branch=master)](https://travis-ci.org/witovttip/uarand)
 
 Random user-agent producer for go.
 
@@ -13,7 +13,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/corpix/uarand"
+	"github.com/witovttip/uarand"
 )
 
 func main() {

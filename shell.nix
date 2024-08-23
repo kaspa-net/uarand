@@ -8,7 +8,7 @@ stdenv.mkDerivation {
     go golangci-lint cacert openssl python3
   ];
   shellHook = ''
-    unset GOPATH
+    unset GOPATH2
     export NIX_PATH=nixpkgs=${nixpkgs}
   '';
 }

@@ -14,10 +14,9 @@ func TestGetRandom(t *testing.T) {
 
 func TestGetRandomConcurrent(t *testing.T) {
 	var (
-		n = 0
+		n  = 0
 		ch = make(chan string)
 	)
-
 
 	for k := 0; k < len(UserAgents)*10; k++ {
 		go func() { ch <- GetRandom() }()

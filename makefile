@@ -1,7 +1,7 @@
 .DEFAULT_GOAL = all
 
 name     := uarand
-package  := github.com/corpix/$(name)
+package  := github.com/witovttip/$(name)
 
 .PHONY: all
 all:: useragents.go
