@@ -1,7 +1,7 @@
 .DEFAULT_GOAL = all
 
 name     := uarand
-package  := github.com/witovttip/$(name)
+package  := github.com/kaspa-net/$(name)
 
 .PHONY: all
 all:: useragents.go
