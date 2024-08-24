@@ -1,4 +1,4 @@
-module github.com/witovttip/uarand
+module github.com/kaspa-net/uarand
 
 go 1.22.5
 
