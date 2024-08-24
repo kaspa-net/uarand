@@ -1,8 +1,6 @@
 uarand
 ----------------
 
-[![Build Status](https://travis-ci.org/kaspa-net/uarand.svg?branch=master)](https://travis-ci.org/kaspa-net/uarand)
-
 Random user-agent producer for go.
 
 ## Example
